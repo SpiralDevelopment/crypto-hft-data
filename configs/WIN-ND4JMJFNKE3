@@ -1,0 +1,39 @@
+{
+  "binance": {
+    "xrpbtc": "trade,depth20",
+    "xrpusdt": "trade,depth20",
+    "ethusdt": "depth20",
+    "ethbtc": "depth20",
+    "eosusdt": "depth20",
+    "eosbtc": "depth20",
+    "mtlbtc": "depth20",
+    "iotausdt": "depth20",
+    "qtumbtc": "trade,depth20"
+  },
+  "bitstamp": {
+    "btcusd": "live_trades,diff_order_book",
+    "eurusd": "live_trades,diff_order_book"
+  },
+  "kraken": {
+    "BTC/USD": "trade,book",
+    "BTC/EUR": "trade,book"
+  },
+  "okex": {
+    "BTC-USDT": "depth,trade"
+  },
+  "bitmex": {
+    "xbtusd": "orderBookL2,trade,liquidation",
+    "ethusd": "orderBookL2,trade,liquidation"
+  },
+    "bitfinex": {
+    "tBTCUSD": "trades,book",
+    "tETHUSD": "trades,book",
+    "tETHEUR": "trades,book",
+    "tBTCEUR": "trades,book"
+  },
+  "coinbase": {
+    "BTC-USD": "matches,level2",
+    "LTC-USD": "matches,level2",
+    "ETH-USD": "matches,level2"
+  }
+}

@@ -1,0 +1,4 @@
+pytz==2019.3
+python_dateutil==2.8.1
+websocket-client==0.47.0
+python-binance==0.7.5
