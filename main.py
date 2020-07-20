@@ -1,6 +1,7 @@
 import argparse
 import os
 import time
+import platform
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 

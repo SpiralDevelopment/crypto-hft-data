@@ -1,15 +1,14 @@
-import platform
 import os
 from singletones.custom_logger import MyLogger
 import json
 logger = MyLogger()
 
-CONFIGS_PATH = os.path.join(os.getcwd(), 'configs')
+CONFIGS_PATH = os.path.join(os.getcwd(), 'configs.json')
 
 
 def get_streams(exchange):
     exchange = exchange.lower()
-    file_path = os.path.join(CONFIGS_PATH, platform.node())
+    file_path = os.path.join(CONFIGS_PATH)
 
     if os.path.exists(file_path):
         with open(file_path) as f:
