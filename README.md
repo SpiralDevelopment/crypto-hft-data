@@ -1,7 +1,7 @@
 # Crypto HFT Data
-> Crytpo High Frequency Data Aggregator
+> Crypto High Frequency Data Aggregator
 
-This project helps you to collect real-time orderbook, trade and other HFT data from several crytpo exchanges using websocket endpoints.
+This project helps you to collect real-time orderbook, trade and other HFT data from several crypto exchanges using websocket endpoints.
 
 ## Available Exchanges
 * Binance
@@ -26,7 +26,7 @@ $ pip3 install -r requirements.txt
 
 Decide on what kind of data you want to receive from an exchange and save that information in json format into [configs.json](https://github.com/SpiralDevelopment/crypto-hft-data/blob/master/configs.json) file.
 
-Example to collect orederbook and trade data from Coinbase for BTC-USD and ETH-USD pairs:
+Example to collect orderbook and trade data from Coinbase for BTC-USD and ETH-USD pairs:
 ```json
 {
   "coinbase": {
