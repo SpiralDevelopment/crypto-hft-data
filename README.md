@@ -17,7 +17,7 @@ This project helps you to collect real-time orderbook, trade and other HFT data 
 
 ```bash
 $ pip3 install virtualenv
-$ virtualenv venv
+$ virtualenv env
 $ source env/bin/activate
 $ pip3 install -r requirements.txt
 ```
