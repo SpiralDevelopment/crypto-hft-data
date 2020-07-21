@@ -13,9 +13,11 @@ This project helps you to collect real-time orderbook, trade and other HFT data 
 * Kraken
 
 ## Run
-### 1. Set-Up virtual environment and Install requirements
+### 1. Clone, Set-Up virtual environment and Install requirements
 
 ```bash
+$ git clone git@github.com:SpiralDevelopment/crypto-hft-data.git
+$ cd crypto-hft-data
 $ pip3 install virtualenv
 $ virtualenv env
 $ source env/bin/activate
@@ -57,6 +59,6 @@ Run main.py passing exchange name as an argument.
 python3 main.py -e coinbase
 ```
 
-All data is saved in .csv file format under files/"exchange-name"/"endpoint-name" folders.
+All data is saved in .csv file format under ```files/"exchange-name"/"endpoint-name"``` folders.
 
 
