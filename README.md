@@ -1,4 +1,4 @@
-# Crypto HFT Data
+# Crypto HFT Data Aggregator
 > Crypto High Frequency Data Aggregator
 
 This project helps you to collect real-time orderbook, trade and other HFT data from several crypto exchanges using websocket endpoints.
@@ -13,7 +13,7 @@ This project helps you to collect real-time orderbook, trade and other HFT data 
 * Kraken
 
 ## Run
-### 1. Clone, Set-Up virtual environment and Install requirements
+### 1. Clone, Set-up virtual environment and Install requirements
 
 ```bash
 $ git clone git@github.com:SpiralDevelopment/crypto-hft-data.git
@@ -26,7 +26,7 @@ $ pip3 install -r requirements.txt
 
 ### 2. Prepare config file
 
-Decide on what kind of data you want to receive from an exchange and save that information in json format into [configs.json](https://github.com/SpiralDevelopment/crypto-hft-data/blob/master/configs.json) file.
+Decide on what kind of data you want to receive from an exchange, and save that information in json format into [configs.json](https://github.com/SpiralDevelopment/crypto-hft-data/blob/master/configs.json) file.
 
 Example to collect orderbook and trade data from Coinbase for BTC-USD and ETH-USD pairs:
 ```json
