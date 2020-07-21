@@ -36,6 +36,15 @@ Example to collect orderbook and trade data from Coinbase for BTC-USD and ETH-US
 }
 ```
 
+Example to collect orderbook, trade and liquidation data from Bitmex for XBT-USD and ETH-USD pairs:
+
+```json
+  "bitmex": {
+    "xbtusd": "orderBookL2,trade,liquidation",
+    "ethusd": "orderBookL2,trade,liquidation"
+  }
+```
+
 To find out the exact endpoints, you need to refer to the offical API documentations of the exchanges. 
 
 I've already made a sample configurations for all exchanges in the [configs.json](https://github.com/SpiralDevelopment/crypto-hft-data/blob/master/configs.json) file. All those endpoints are active and working as of writing this.
