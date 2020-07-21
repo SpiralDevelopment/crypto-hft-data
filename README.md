@@ -12,7 +12,7 @@ This project helps you to collect real-time orderbook, trade and other HFT data 
 * Bitstamp
 * Kraken
 
-## Run
+## Usage
 ### 1. Clone, Set-up virtual environment and Install requirements
 
 ```bash
@@ -63,4 +63,9 @@ python3 main.py -e coinbase
 
 All data is saved in .csv file format under ```files/"exchange-name"/"endpoint-name"``` folders.
 
+## Contributions
 
+Contributions and feature requests are always welcome!
+
+## License
+[MIT License](https://github.com/SpiralDevelopment/crypto-hft-data/blob/master/LICENSE)
