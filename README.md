@@ -67,5 +67,15 @@ All data is saved in .csv file format under ```files/"exchange-name"/"endpoint-n
 
 Contributions and feature requests are always welcome!
 
+## Support
+
+If you like my work, feel free to support it!
+
+* **BTC:** 1PUGs6mxcW2W3SJi95aG8GvRQRJsoFHWWQ
+
+* **ETH:** 0x66615e09f7f46429e7620ffbf78479879bbab41d
+
+* **LTC:** LRxYMgEXMumwxYdimZo9EJ5CfBcipD5c3n
+
 ## License
 [MIT License](https://github.com/SpiralDevelopment/crypto-hft-data/blob/master/LICENSE)
